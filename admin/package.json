@@ -1,0 +1,28 @@
+{
+  "name": "prompt-collection-admin",
+  "version": "1.0.0",
+  "description": "Admin panel for prompt collection app",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "axios": "^1.5.0",
+    "pinia": "^2.1.6",
+    "@headlessui/vue": "^1.7.16",
+    "@heroicons/vue": "^2.0.18",
+    "tailwindcss": "^3.3.3",
+    "chart.js": "^4.4.0",
+    "vue-chartjs": "^5.2.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29"
+  }
+}

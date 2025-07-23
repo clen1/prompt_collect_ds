@@ -1,0 +1,23 @@
+{
+  "name": "prompt-collection-app",
+  "version": "1.0.0",
+  "description": "A modern prompt collection and management application",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "dev:all": "concurrently \"npm run server:dev\" \"npm run client:dev\" \"npm run admin:dev\"",
+    "server:dev": "cd server && npm run dev",
+    "client:dev": "cd client && npm run dev",
+    "admin:dev": "cd admin && npm run dev",
+    "server:start": "cd server && npm start",
+    "client:build": "cd client && npm run build",
+    "admin:build": "cd admin && npm run build",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install && cd ../admin && npm install"
+  },
+  "keywords": ["prompt", "collection", "management", "express", "vue"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
